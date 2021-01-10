@@ -1,0 +1,127 @@
+body{
+    position: absolute;
+    margin: 0px;
+    font-family: 'Segoe UI';
+    width: 100%;
+    height: 150%;
+}
+
+#div_max{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(32, 32, 32);
+}
+.navbar{
+    z-index: 5;
+    border: none;
+}
+.navbar2{
+    transition: 0.5s; 
+    background-color: rgb(54, 54, 54);
+}
+.navbar2:hover{
+    box-shadow: 2px 6px 2px rgb(0, 0, 0);
+    background-color: rgb(73, 73, 73);
+}
+.navbar-dark{
+    font-family: 'VALORANT';
+}
+.gachchan{
+    text-decoration: none;
+}
+.gachchan:hover{
+    text-decoration: underline;
+}
+.div_choice{
+    width: 20%;
+    height: 60%;
+    position: fixed;
+    margin-left: 2%;
+    margin-top: 8%;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    transition: 0.5s;
+}
+.div_choice:hover{
+    box-shadow: 4px 8px 4px rgb(0, 0, 0);
+    background-color: rgb(204, 37, 37);
+
+}
+#img_tieude{
+    width: 45px;            
+    height: 100%;
+}
+#txt_tieude{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+    transition: 0.5s;
+}
+#txt_tieude:hover{
+    background-color: rgb(73, 73, 73);
+}
+#khung_chat{
+    border-radius: 10px;
+    overflow: hidden;
+    height: 50%;
+    width: 70%;
+    background-color: rgb(54, 54, 54);
+    position: absolute;
+    margin-left:25%;
+    margin-top: 8%;
+    transition: 0.5s;
+}
+#khung_chat:hover{
+    box-shadow: 4px 8px 4px rgb(0, 0, 0);
+    background-color: rgb(73, 73, 73);
+
+}
+.frame{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.tieude{
+    margin-left: 5px;
+    height: 40px;
+    transition: 0.2s;
+    color: white;
+
+}
+.tieude:hover{
+    color: red;
+    text-decoration: none;
+}
+.div_img{
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+#tieude_chat{
+    color: red;
+    border-bottom: solid 1px rgb(32, 32, 32);
+    height: 10%;
+    font-size: 30px;
+    font-family: "VALORANT";
+    margin: 10px ;
+}
+.cre{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+    transition: 0.5s;
+}
+.imgtudo{
+    margin: 5px;
+    width: 110px;
+    height: 90px;
+}
+.cre:hover{
+    background-color: rgb(73, 73, 73);
+}
