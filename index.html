@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="icons8-p-52.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private chat</title>
+    <script src="script.js"></script>
+    <!-- <script src="script2.js"></script> -->
+    <link href="http://fonts.cdnfonts.com/css/valorant" rel="stylesheet">
+    <style>
+                            @import url('http://fonts.cdnfonts.com/css/valorant');
+</style>
+                
+</head>
+<body>
+    <div class="bg">
+        
+    </div>
+    <canvas class="nokey1" id="nokey" width="800" height="800">
+        Your Browser Don't Support Canvas, Please Download Chrome ^_^``
+    </canvas>
+    <div class="fixed_div">
+        <div class="bg-text-main">
+            <p>A perfect private chat web for you</p>
+            <h1 style="font-size:90px;    font-family: 'VALORANT', sans-serif;font-weight: bold;letter-spacing: 5px;" >PRIVATE CHAT</h1>
+        </div>    
+        <!-- <div class="bg-text">
+            <p>enter ur nickname</p>
+        </div>      -->
+    </div>
+    <div  class="container sticky-top " id="nadbar">
+        <div class="row align-items-start" >
+            <div class=" col" >
+                <a href="#" class="ButtonNadbar" id="btnNad_CreateRoom"><span></span>Create room</a>
+            </div>
+            <div class=" col" >
+                <a href="#" class="ButtonNadbar" id="btnNad_Category"><span></span>Category</a>
+            </div>
+            <div class=" col" >
+                <a href="#" class="ButtonNadbar" id="btnNad_Help"><span></span> Help</a>
+            </div>
+            <div class=" col" >
+                <a href="index2.html" class="ButtonNadbar" id="btnNad_About"><span></span> About</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class=" btnNadChatNow" >
+            <a href="chat_web2.html" class="ButtonNadbar" id="btnNad_ChatNow"><span></span> ChatNow</a>
+        </div>
+    </div>
+    
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function(e){
+            $('.ButtonNadbar').on("mouseenter",function(e){
+                x = e.pageX - $(this).offset().left;
+                y = e.pageY - $(this).offset().top;
+                $(this).find("span").css({top:y,left:x})
+            })
+            $('.ButtonNadbar').on("mouseout",function(e){
+                x = e.pageX - $(this).offset().left;
+                y = e.pageY - $(this).offset().top;
+                $(this).find("span").css({top:y,left:x})
+            })
+        })
+        </script>
+
+    </body>
+</html>
